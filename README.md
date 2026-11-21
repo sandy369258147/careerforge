@@ -9,10 +9,13 @@ npm install
 npm run assets    # optional: downloads the original images/logo from the live site
 npm run dev       # http://localhost:5173
 npm run build     # production build in /dist
+npm run deploy    # build and publish to the gh-pages branch
 ```
 
 The site works without `npm run assets`: every image has a local SVG placeholder.
 When a real file exists (e.g. `src/assets/images/service-talent.webp`), it replaces the placeholder automatically.
+
+The deploy command clears the temporary checkout before staging the build, avoiding Windows command-line length limits when the published branch has many files.
 
 ## Where things live
 

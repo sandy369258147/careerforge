@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "assets": "node scripts/download-assets.mjs",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "node scripts/deploy.mjs"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
