@@ -319,16 +319,16 @@ export default function TechArchitect3D({ className = '' }) {
           </div>
           <div>
             <div style={{ fontSize: '0.72rem', fontWeight: 700, color: '#15803D', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-              ● 48h Deployment
+              ● CRM
             </div>
             <div style={{ fontSize: '1.05rem', fontWeight: 800, color: '#163B65', lineHeight: 1.1 }}>
-              Cloud & AI Leads
+              Sales Performance
             </div>
           </div>
         </div>
 
         {/* Floating Holographic Tech Badges (Floating Orbiting Pills) */}
-        <div
+        {/* <div
           style={{
             position: 'absolute',
             top: '8%',
@@ -346,7 +346,7 @@ export default function TechArchitect3D({ className = '' }) {
           }}
         >
           &lt;/&gt; DevOps & Full-Stack
-        </div>
+        </div> */}
       </div>
     </div>
   )
