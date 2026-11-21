@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="12" y1="8" x2="52" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3E6D9E" />
+      <stop offset="60%" stop-color="#224D87" />
+      <stop offset="100%" stop-color="#163B65" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield Outline -->
+  <path
+    d="M32 58C46 51 52 38 52 23V14C52 12.8954 51.1046 12 50 12C38 11.5 32 8 32 8C32 8 26 11.5 14 12C12.8954 12 12 12.8954 12 14V23C12 38 18 51 32 58Z"
+    stroke="url(#shieldGrad)"
+    stroke-width="5"
+    stroke-linejoin="round"
+    fill="none"
+  />
+  <!-- Inner Upward Arrow -->
+  <path
+    d="M24 40L38 24M38 24H28M38 24V34"
+    stroke="url(#shieldGrad)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Bottom Left Accent Mark -->
+  <path
+    d="M19 45L27 35"
+    stroke="url(#shieldGrad)"
+    stroke-width="4.5"
+    stroke-linecap="round"
+  />
+</svg>
